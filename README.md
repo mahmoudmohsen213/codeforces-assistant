@@ -14,7 +14,11 @@ As with server routines, intent handlers are implemented as separate modules and
 
 ![system diagram](/images/img01.JPG)
 
-###### Notes:
+##### Notes:
 - Before running the server you should replace `CLIENT_ACCESS_TOKEN` in server.js with the correct access token of your api.ai agent. This access token can be found in your agent's settings in API Keys section.
 - You should also replace `FB_PAGE_ID` and `VERIFY_TOKEN` in server.js with the correct values. FB_PAGE_ID is the id of the facebook page to which the app is subscribed. VERIFY_TOKEN is the choosen token used to verify your webhook.
 - `ADMIN_PASSWORD` is used to access adminstrative features, so it can be of any value.
+
+##### Useful Links
+- [How to get started with facebook messenger bots](https://x-team.com/blog/how-to-get-started-with-facebook-messenger-bots/).
+- [api.ai with NodeJs](https://www.npmjs.com/package/apiai).

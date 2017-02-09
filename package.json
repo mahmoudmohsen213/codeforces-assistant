@@ -1,0 +1,21 @@
+{
+  "name": "codeforces-assistant",
+  "version": "1.0.0",
+  "description": "A chatbot for codeforces.com",
+  "main": "server.js",
+  "dependencies": {
+    "apiai": "3.0.3",
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "request": "2.79.0",
+    "shuffle-array": "1.0.0"
+  },
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.8"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Mahmoud Mohsen"
+}
